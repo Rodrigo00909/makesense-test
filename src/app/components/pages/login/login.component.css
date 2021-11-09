@@ -1,0 +1,125 @@
+.login {
+  margin-top: 20px;
+}
+
+.login-container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.login-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.login-title h1 {
+  color: rgb(37, 37, 37);
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 56px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 0;
+}
+
+.login-title h1 span {
+  color: #70AF90;
+}
+
+.login-reg-section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%),
+    0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.login-reg-section h2 {
+  letter-spacing: 1px;
+  color: rgb(37, 37, 37);
+}
+
+.login-reg-section label {
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+.login-reg-section label span {
+  font-size: 16px;
+  color: #cfcfcf;
+  text-transform: uppercase;
+}
+
+.login-reg-section label input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.login-reg-section-forgotpass {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #cfcfcf;
+}
+
+.login-reg-section-reg {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #70AF90;
+  text-transform: uppercase;
+}
+
+.regButton,
+.googleButton {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 36px;
+  border-radius: 20px;
+  border: 1px solid;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0px 45px;
+  cursor: pointer;
+  transition: transform 80ms ease-in;
+}
+
+.regButton:active,
+.googleButton:active {
+  transform: scale(0.95);
+}
+
+.regButton:focus,
+.googleButton:focus {
+  outline: none;
+}
+
+.googleButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2 px solid #d3dae9;
+  background-color: #fff;
+  color: #8fa1c7;
+}
